@@ -82,21 +82,7 @@ source(&quot;C:/_gielda_/code.ef.R&quot;)
 #******************************************************************
 load.packages('quantmod')</code></pre>
 <pre><code>## Loading required package: zoo
-## 
-## Attaching package: 'zoo'
-## 
-## The following objects are masked from 'package:base':
-## 
-##     as.Date, as.Date.numeric
-## 
-## 
-## Attaching package: 'TTR'
-## 
-## The following object is masked _by_ '.GlobalEnv':
-## 
-##     DVI
-## 
-## Version 0.4-0 included new data defaults. See ?getSymbols.</code></pre>
+</code></pre>
 <pre class="r"><code>require(downloader)</code></pre>
 <pre><code>## Loading required package: downloader</code></pre>
 <pre class="r"><code>require(PerformanceAnalytics)</code></pre>
@@ -120,10 +106,7 @@ getSymbols(tickers, src = 'yahoo', from = '2014-01-01', env = data, auto.assign 
 ## 
 ##  This message is shown once per session and may be disabled by setting 
 ##  options(&quot;getSymbols.warning4.0&quot;=FALSE). See ?getSymbol for more details
-## pausing 1 second between requests for more than 5 symbols
-## pausing 1 second between requests for more than 5 symbols
-## pausing 1 second between requests for more than 5 symbols
-## pausing 1 second between requests for more than 5 symbols</code></pre>
+</code></pre>
 <pre><code>## [1] &quot;SPXL&quot; &quot;TQQQ&quot; &quot;TMF&quot;  &quot;EDV&quot;  &quot;SPY&quot;  &quot;QQQ&quot;  &quot;TLT&quot;  &quot;SHV&quot;</code></pre>
 <pre class="r"><code>for(i in ls(data)) data[[i]] = adjustOHLC(data[[i]], use.Adjusted=T)                        
 
@@ -167,19 +150,7 @@ constraints = add.constraints(rep(1, n), 1, type = '=', constraints)
 
 # create efficient frontier
 ef = portopt(ia, constraints, 50, 'Efficient Frontier')</code></pre>
-<pre><code>## 
-## Attaching package: 'corpcor'
-## 
-## The following object is masked _by_ '.GlobalEnv':
-## 
-##     cov.shrink
-## 
-## 
-## Attaching package: 'kernlab'
-## 
-## The following object is masked _by_ '.GlobalEnv':
-## 
-##     cross</code></pre>
+
 <pre class="r"><code>#*****************************************************************
 # Create Plot
 #******************************************************************    
@@ -321,31 +292,6 @@ report_EW</code></pre>
 ## [8,] &quot;SHV&quot;   &quot;0.4913&quot;</code></pre>
 <pre class="r"><code>REPORT_EW</code></pre>
 <pre><code>##        EDV  QQQ  SHV SPXL  SPY  TLT  TMF TQQQ
-##  [1,] 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
-##  [2,] 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00
-##  [3,] 0.25 0.00 0.00 0.00 0.00 0.25 0.25 0.25
-##  [4,] 0.25 0.00 0.00 0.00 0.00 0.25 0.25 0.25
-##  [5,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-##  [6,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-##  [7,] 0.00 0.25 0.25 0.00 0.25 0.25 0.00 0.00
-##  [8,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
-##  [9,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-## [10,] 0.00 0.00 0.00 0.25 0.25 0.00 0.25 0.25
-## [11,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
-## [12,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-## [13,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-## [14,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-## [15,] 0.25 0.00 0.00 0.25 0.00 0.25 0.25 0.00
-## [16,] 0.25 0.00 0.00 0.00 0.00 0.25 0.25 0.25
-## [17,] 0.25 0.00 0.00 0.25 0.00 0.00 0.25 0.25
-## [18,] 0.25 0.00 0.00 0.00 0.00 0.25 0.25 0.25
-## [19,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
-## [20,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
-## [21,] 0.25 0.00 0.00 0.25 0.00 0.25 0.25 0.00
-## [22,] 0.00 0.25 0.00 0.25 0.00 0.00 0.25 0.25
-## [23,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
-## [24,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
-## [25,] 0.00 0.25 0.00 0.25 0.25 0.00 0.00 0.25
 ## [26,] 0.25 0.00 0.00 0.00 0.00 0.25 0.25 0.25
 ## [27,] 0.25 0.00 0.25 0.00 0.00 0.25 0.25 0.00
 ## [28,] 0.00 0.25 0.25 0.25 0.25 0.00 0.00 0.00
@@ -368,218 +314,12 @@ report_EW</code></pre>
 ## 
 ## $trades
 ##        symbol weight entry.date   exit.date    entry.price exit.price
-##   [1,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot;111.14&quot;    &quot;109.93&quot;  
-##   [2,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot;116.12&quot;    &quot;115.71&quot;  
-##   [3,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot; 69.14&quot;    &quot; 68.38&quot;  
-##   [4,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot; 82.73&quot;    &quot; 87.02&quot;  
-##   [5,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot;109.93&quot;    &quot;112.80&quot;  
-##   [6,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot;115.71&quot;    &quot;117.44&quot;  
-##   [7,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot; 68.38&quot;    &quot; 71.48&quot;  
-##   [8,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot; 87.02&quot;    &quot; 88.96&quot;  
-##   [9,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 99.17&quot;    &quot; 99.28&quot;  
-##  [10,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 81.33&quot;    &quot; 81.78&quot;  
-##  [11,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot;198.68&quot;    &quot;199.08&quot;  
-##  [12,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 88.96&quot;    &quot; 89.24&quot;  
-##  [13,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot; 99.28&quot;    &quot; 98.88&quot;  
-##  [14,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot; 81.78&quot;    &quot; 79.33&quot;  
-##  [15,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot;199.08&quot;    &quot;197.12&quot;  
-##  [16,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot; 89.24&quot;    &quot; 88.07&quot;  
-##  [17,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot; 98.88&quot;    &quot; 99.61&quot;  
-##  [18,] &quot;SHV&quot;  &quot;25&quot;   &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;110.26&quot;    &quot;110.28&quot;  
-##  [19,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;197.12&quot;    &quot;199.60&quot;  
-##  [20,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;112.10&quot;    &quot;113.31&quot;  
-##  [21,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot;106.88&quot;    &quot;109.12&quot;  
-##  [22,] &quot;SHV&quot;  &quot;25&quot;   &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot;110.28&quot;    &quot;110.29&quot;  
-##  [23,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot;113.31&quot;    &quot;114.69&quot;  
-##  [24,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot; 63.90&quot;    &quot; 66.26&quot;  
-##  [25,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot; 98.41&quot;    &quot; 97.81&quot;  
-##  [26,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot; 78.79&quot;    &quot; 76.98&quot;  
-##  [27,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot;196.81&quot;    &quot;195.44&quot;  
-##  [28,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot; 86.47&quot;    &quot; 84.80&quot;  
-##  [29,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot; 76.98&quot;    &quot; 69.98&quot;  
-##  [30,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot;195.44&quot;    &quot;189.49&quot;  
-##  [31,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot; 69.56&quot;    &quot; 73.76&quot;  
-##  [32,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot; 84.80&quot;    &quot; 75.00&quot;  
-##  [33,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot;114.80&quot;    &quot;116.23&quot;  
-##  [34,] &quot;SHV&quot;  &quot;25&quot;   &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot;110.27&quot;    &quot;110.26&quot;  
-##  [35,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot;118.99&quot;    &quot;120.01&quot;  
-##  [36,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot; 73.76&quot;    &quot; 75.75&quot;  
-##  [37,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot; 92.65&quot;    &quot; 98.25&quot;  
-##  [38,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot; 67.59&quot;    &quot; 76.14&quot;  
-##  [39,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot;187.44&quot;    &quot;195.35&quot;  
-##  [40,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot; 71.70&quot;    &quot; 84.93&quot;  
-##  [41,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 98.25&quot;    &quot;101.02&quot;  
-##  [42,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 76.14&quot;    &quot; 82.38&quot;  
-##  [43,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot;195.35&quot;    &quot;200.55&quot;  
-##  [44,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 84.93&quot;    &quot; 92.18&quot;  
-##  [45,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot;101.02&quot;    &quot;101.22&quot;  
-##  [46,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot; 82.38&quot;    &quot; 84.40&quot;  
-##  [47,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot;200.55&quot;    &quot;202.22&quot;  
-##  [48,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot; 92.18&quot;    &quot; 92.69&quot;  
-##  [49,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot;114.99&quot;    &quot;114.90&quot;  
-##  [50,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot; 84.40&quot;    &quot; 85.46&quot;  
-##  [51,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot;118.99&quot;    &quot;118.73&quot;  
-##  [52,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot; 73.53&quot;    &quot; 72.95&quot;  
-##  [53,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot;114.90&quot;    &quot;115.69&quot;  
-##  [54,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot;118.73&quot;    &quot;119.33&quot;  
-##  [55,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot; 72.95&quot;    &quot; 74.13&quot;  
-##  [56,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot; 97.16&quot;    &quot; 99.16&quot;  
-##  [57,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot;115.69&quot;    &quot;118.99&quot;  
-##  [58,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 88.59&quot;    &quot; 89.22&quot;  
-##  [59,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 74.13&quot;    &quot; 78.66&quot;  
-##  [60,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 99.16&quot;    &quot;105.36&quot;  
-##  [61,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;118.99&quot;    &quot;117.79&quot;  
-##  [62,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;121.71&quot;    &quot;120.59&quot;  
-##  [63,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot; 78.66&quot;    &quot; 76.43&quot;  
-##  [64,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;105.36&quot;    &quot;103.25&quot;  
-##  [65,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot;104.99&quot;    &quot;102.29&quot;  
-##  [66,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot; 90.14&quot;    &quot; 80.98&quot;  
-##  [67,] &quot;SPY&quot;  &quot;25&quot;   &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot;206.86&quot;    &quot;199.79&quot;  
-##  [68,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot;103.25&quot;    &quot; 95.32&quot;  
-##  [69,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot;125.01&quot;    &quot;123.55&quot;  
-##  [70,] &quot;SHV&quot;  &quot;25&quot;   &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot;110.25&quot;    &quot;110.25&quot;  
-##  [71,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot;125.78&quot;    &quot;125.35&quot;  
-##  [72,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot; 86.49&quot;    &quot; 85.42&quot;  
-##  [73,] &quot;EDV&quot;  &quot;25&quot;   &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot;123.55&quot;    &quot;121.72&quot;  
-##  [74,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot; 89.11&quot;    &quot; 91.64&quot;  
-##  [75,] &quot;TLT&quot;  &quot;25&quot;   &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot;125.35&quot;    &quot;124.16&quot;  
-##  [76,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot; 85.42&quot;    &quot; 82.92&quot;  
-##  [77,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot;105.04&quot;    &quot;102.94&quot;  
-##  [78,] &quot;SPXL&quot; &quot;25&quot;   &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot; 91.64&quot;    &quot; 87.64&quot;  
-##  [79,] &quot;TMF&quot;  &quot;25&quot;   &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot; 82.92&quot;    &quot; 88.69&quot;  
-##  [80,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot;102.70&quot;    &quot; 96.65&quot;  
-##  [81,] &quot;EDV&quot;  &quot;25&quot;   &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;126.24&quot;    &quot;131.00&quot;  
-##  [82,] &quot;SHV&quot;  &quot;25&quot;   &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;110.23&quot;    &quot;110.25&quot;  
-##  [83,] &quot;TLT&quot;  &quot;25&quot;   &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;127.06&quot;    &quot;130.81&quot;  
-##  [84,] &quot;TMF&quot;  &quot;25&quot;   &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot; 88.69&quot;    &quot; 96.69&quot;  
-##  [85,] &quot;EDV&quot;  &quot;25&quot;   &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;131.00&quot;    &quot;133.92&quot;  
-##  [86,] &quot;SHV&quot;  &quot;25&quot;   &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;110.25&quot;    &quot;110.27&quot;  
-##  [87,] &quot;TLT&quot;  &quot;25&quot;   &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;130.81&quot;    &quot;132.92&quot;  
-##  [88,] &quot;TMF&quot;  &quot;25&quot;   &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot; 96.69&quot;    &quot;101.12&quot;  
-##  [89,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot;100.82&quot;    &quot;104.26&quot;  
-##  [90,] &quot;SPXL&quot; &quot;25&quot;   &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot; 82.40&quot;    &quot; 86.51&quot;  
-##  [91,] &quot;SPY&quot;  &quot;25&quot;   &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot;201.63&quot;    &quot;204.97&quot;  
-##  [92,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot; 90.40&quot;    &quot; 99.70&quot;  
-##  [93,] &quot;EDV&quot;  &quot;25&quot;   &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot;136.06&quot;    &quot;141.60&quot;  
-##  [94,] &quot;TLT&quot;  &quot;25&quot;   &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot;134.50&quot;    &quot;138.00&quot;  
-##  [95,] &quot;TMF&quot;  &quot;25&quot;   &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot;104.60&quot;    &quot;112.72&quot;  
-##  [96,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot; 99.70&quot;    &quot; 90.68&quot;  
-##  [97,] &quot;EDV&quot;  &quot;25&quot;   &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;141.60&quot;    &quot;130.67&quot;  
-##  [98,] &quot;SHV&quot;  &quot;25&quot;   &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;110.26&quot;    &quot;110.27&quot;  
-##  [99,] &quot;TLT&quot;  &quot;25&quot;   &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;138.00&quot;    &quot;130.96&quot;  
-## [100,] &quot;TMF&quot;  &quot;25&quot;   &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;112.72&quot;    &quot; 96.28&quot;  
-## [101,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2015-02-06&quot; &quot;2015-02-13&quot; &quot;103.13&quot;    &quot;106.91&quot;  
-## [102,] &quot;SHV&quot;  &quot;25&quot;   &quot;2015-02-06&quot; &quot;2015-02-13&quot; &quot;110.27&quot;    &quot;110.27&quot;  
-## [103,] &quot;SPXL&quot; &quot;25&quot;   &quot;2015-02-06&quot; &quot;2015-02-13&quot; &quot; 86.84&quot;    &quot; 92.33&quot;  
 ## [104,] &quot;SPY&quot;  &quot;25&quot;   &quot;2015-02-06&quot; &quot;2015-02-13&quot; &quot;205.55&quot;    &quot;209.78&quot;  
 ## [105,] &quot;QQQ&quot;  &quot;25&quot;   &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot;106.91&quot;    &quot;108.41&quot;  
 ## [106,] &quot;SPXL&quot; &quot;25&quot;   &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot; 92.33&quot;    &quot; 94.21&quot;  
 ## [107,] &quot;SPY&quot;  &quot;25&quot;   &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot;209.78&quot;    &quot;211.24&quot;  
 ## [108,] &quot;TQQQ&quot; &quot;25&quot;   &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot;106.86&quot;    &quot;111.33&quot;  
 ##        return 
-##   [1,] &quot;-0.27&quot;
-##   [2,] &quot;-0.09&quot;
-##   [3,] &quot;-0.27&quot;
-##   [4,] &quot; 1.30&quot;
-##   [5,] &quot; 0.65&quot;
-##   [6,] &quot; 0.37&quot;
-##   [7,] &quot; 1.13&quot;
-##   [8,] &quot; 0.56&quot;
-##   [9,] &quot; 0.03&quot;
-##  [10,] &quot; 0.14&quot;
-##  [11,] &quot; 0.05&quot;
-##  [12,] &quot; 0.08&quot;
-##  [13,] &quot;-0.10&quot;
-##  [14,] &quot;-0.75&quot;
-##  [15,] &quot;-0.25&quot;
-##  [16,] &quot;-0.33&quot;
-##  [17,] &quot; 0.18&quot;
-##  [18,] &quot; 0.00&quot;
-##  [19,] &quot; 0.31&quot;
-##  [20,] &quot; 0.27&quot;
-##  [21,] &quot; 0.52&quot;
-##  [22,] &quot; 0.00&quot;
-##  [23,] &quot; 0.30&quot;
-##  [24,] &quot; 0.92&quot;
-##  [25,] &quot;-0.15&quot;
-##  [26,] &quot;-0.57&quot;
-##  [27,] &quot;-0.17&quot;
-##  [28,] &quot;-0.48&quot;
-##  [29,] &quot;-2.27&quot;
-##  [30,] &quot;-0.76&quot;
-##  [31,] &quot; 1.51&quot;
-##  [32,] &quot;-2.89&quot;
-##  [33,] &quot; 0.31&quot;
-##  [34,] &quot; 0.00&quot;
-##  [35,] &quot; 0.21&quot;
-##  [36,] &quot; 0.67&quot;
-##  [37,] &quot; 1.51&quot;
-##  [38,] &quot; 3.16&quot;
-##  [39,] &quot; 1.06&quot;
-##  [40,] &quot; 4.61&quot;
-##  [41,] &quot; 0.70&quot;
-##  [42,] &quot; 2.05&quot;
-##  [43,] &quot; 0.67&quot;
-##  [44,] &quot; 2.13&quot;
-##  [45,] &quot; 0.05&quot;
-##  [46,] &quot; 0.61&quot;
-##  [47,] &quot; 0.21&quot;
-##  [48,] &quot; 0.14&quot;
-##  [49,] &quot;-0.02&quot;
-##  [50,] &quot; 0.31&quot;
-##  [51,] &quot;-0.05&quot;
-##  [52,] &quot;-0.20&quot;
-##  [53,] &quot; 0.17&quot;
-##  [54,] &quot; 0.13&quot;
-##  [55,] &quot; 0.40&quot;
-##  [56,] &quot; 0.51&quot;
-##  [57,] &quot; 0.71&quot;
-##  [58,] &quot; 0.18&quot;
-##  [59,] &quot; 1.53&quot;
-##  [60,] &quot; 1.56&quot;
-##  [61,] &quot;-0.25&quot;
-##  [62,] &quot;-0.23&quot;
-##  [63,] &quot;-0.71&quot;
-##  [64,] &quot;-0.50&quot;
-##  [65,] &quot;-0.64&quot;
-##  [66,] &quot;-2.54&quot;
-##  [67,] &quot;-0.85&quot;
-##  [68,] &quot;-1.92&quot;
-##  [69,] &quot;-0.29&quot;
-##  [70,] &quot; 0.00&quot;
-##  [71,] &quot;-0.09&quot;
-##  [72,] &quot;-0.31&quot;
-##  [73,] &quot;-0.37&quot;
-##  [74,] &quot; 0.71&quot;
-##  [75,] &quot;-0.24&quot;
-##  [76,] &quot;-0.73&quot;
-##  [77,] &quot;-0.50&quot;
-##  [78,] &quot;-1.09&quot;
-##  [79,] &quot; 1.74&quot;
-##  [80,] &quot;-1.47&quot;
-##  [81,] &quot; 0.94&quot;
-##  [82,] &quot; 0.00&quot;
-##  [83,] &quot; 0.74&quot;
-##  [84,] &quot; 2.26&quot;
-##  [85,] &quot; 0.56&quot;
-##  [86,] &quot; 0.00&quot;
-##  [87,] &quot; 0.40&quot;
-##  [88,] &quot; 1.15&quot;
-##  [89,] &quot; 0.85&quot;
-##  [90,] &quot; 1.25&quot;
-##  [91,] &quot; 0.41&quot;
-##  [92,] &quot; 2.57&quot;
-##  [93,] &quot; 1.02&quot;
-##  [94,] &quot; 0.65&quot;
-##  [95,] &quot; 1.94&quot;
-##  [96,] &quot;-2.26&quot;
-##  [97,] &quot;-1.93&quot;
-##  [98,] &quot; 0.00&quot;
-##  [99,] &quot;-1.28&quot;
-## [100,] &quot;-3.65&quot;
-## [101,] &quot; 0.92&quot;
-## [102,] &quot; 0.00&quot;
-## [103,] &quot; 1.58&quot;
 ## [104,] &quot; 0.51&quot;
 ## [105,] &quot; 0.35&quot;
 ## [106,] &quot; 0.51&quot;
@@ -598,31 +338,7 @@ report_MS</code></pre>
 ## [8,] &quot;SHV&quot;   &quot;0.4913&quot;</code></pre>
 <pre class="r"><code>REPORT_MS</code></pre>
 <pre><code>##          EDV    QQQ    SHV   SPXL    SPY    TLT    TMF   TQQQ
-##  [1,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
-##  [2,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
-##  [3,] 0.6422 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.3578
-##  [4,] 0.1195 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.8805
-##  [5,] 0.0000 0.8892 0.0000 0.1108 0.0000 0.0000 0.0000 0.0000
-##  [6,] 0.0000 0.3906 0.0000 0.0000 0.6094 0.0000 0.0000 0.0000
-##  [7,] 0.0000 1.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
-##  [8,] 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 0.0000 0.0000
-##  [9,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000
-## [10,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.8123 0.1877
-## [11,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000 0.0000
-## [12,] 0.0000 1.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000
-## [13,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000
-## [14,] 0.0000 0.6808 0.0000 0.3192 0.0000 0.0000 0.0000 0.0000
-## [15,] 0.0000 0.0000 0.0000 0.3423 0.0000 0.6577 0.0000 0.0000
-## [16,] 0.0723 0.0000 0.0000 0.0000 0.0000 0.3073 0.0000 0.6204
-## [17,] 0.0000 0.0000 0.0000 0.5792 0.0000 0.0000 0.0000 0.4208
-## [18,] 0.6582 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.3418
-## [19,] 0.0000 0.4953 0.0000 0.0000 0.5047 0.0000 0.0000 0.0000
-## [20,] 0.1183 0.0000 0.8817 0.0000 0.0000 0.0000 0.0000 0.0000
-## [21,] 0.0000 0.0000 0.0000 0.3710 0.0000 0.0000 0.6290 0.0000
-## [22,] 0.0000 0.0000 0.0000 0.5823 0.0000 0.0000 0.4177 0.0000
-## [23,] 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000
-## [24,] 0.0281 0.0000 0.9719 0.0000 0.0000 0.0000 0.0000 0.0000
-## [25,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0000
+
 ## [26,] 0.0000 0.0000 0.0000 0.0000 0.0000 0.7967 0.0000 0.2033
 ## [27,] 0.0594 0.0000 0.9406 0.0000 0.0000 0.0000 0.0000 0.0000
 ## [28,] 0.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000
@@ -645,162 +361,12 @@ report_MS</code></pre>
 ## 
 ## $trades
 ##       symbol weight  entry.date   exit.date    entry.price exit.price
-##  [1,] &quot;EDV&quot;  &quot; 64.2&quot; &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot;111.14&quot;    &quot;109.93&quot;  
-##  [2,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot; 69.14&quot;    &quot; 68.38&quot;  
-##  [3,] &quot;TQQQ&quot; &quot; 35.8&quot; &quot;2014-08-15&quot; &quot;2014-08-22&quot; &quot; 82.73&quot;    &quot; 87.02&quot;  
-##  [4,] &quot;EDV&quot;  &quot; 11.9&quot; &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot;109.93&quot;    &quot;112.80&quot;  
-##  [5,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot; 68.38&quot;    &quot; 71.48&quot;  
-##  [6,] &quot;TQQQ&quot; &quot; 88.1&quot; &quot;2014-08-22&quot; &quot;2014-08-29&quot; &quot; 87.02&quot;    &quot; 88.96&quot;  
-##  [7,] &quot;QQQ&quot;  &quot; 88.9&quot; &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 99.17&quot;    &quot; 99.28&quot;  
-##  [8,] &quot;SPXL&quot; &quot; 11.1&quot; &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 81.33&quot;    &quot; 81.78&quot;  
-##  [9,] &quot;TQQQ&quot; &quot;  0.0&quot; &quot;2014-08-29&quot; &quot;2014-09-05&quot; &quot; 88.96&quot;    &quot; 89.24&quot;  
-## [10,] &quot;QQQ&quot;  &quot; 39.1&quot; &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot; 99.28&quot;    &quot; 98.88&quot;  
-## [11,] &quot;SPY&quot;  &quot; 60.9&quot; &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot;199.08&quot;    &quot;197.12&quot;  
-## [12,] &quot;TQQQ&quot; &quot;  0.0&quot; &quot;2014-09-05&quot; &quot;2014-09-12&quot; &quot; 89.24&quot;    &quot; 88.07&quot;  
-## [13,] &quot;QQQ&quot;  &quot;100.0&quot; &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot; 98.88&quot;    &quot; 99.61&quot;  
-## [14,] &quot;SHV&quot;  &quot;  0.0&quot; &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;110.26&quot;    &quot;110.28&quot;  
-## [15,] &quot;SPY&quot;  &quot;  0.0&quot; &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;197.12&quot;    &quot;199.60&quot;  
-## [16,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2014-09-12&quot; &quot;2014-09-19&quot; &quot;112.10&quot;    &quot;113.31&quot;  
-## [17,] &quot;SHV&quot;  &quot;100.0&quot; &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot;110.28&quot;    &quot;110.29&quot;  
-## [18,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot;113.31&quot;    &quot;114.69&quot;  
-## [19,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-09-19&quot; &quot;2014-09-26&quot; &quot; 63.90&quot;    &quot; 66.26&quot;  
-## [20,] &quot;QQQ&quot;  &quot;  0.0&quot; &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot; 98.41&quot;    &quot; 97.81&quot;  
-## [21,] &quot;SPY&quot;  &quot;  0.0&quot; &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot;196.81&quot;    &quot;195.44&quot;  
-## [22,] &quot;TQQQ&quot; &quot;100.0&quot; &quot;2014-09-26&quot; &quot;2014-10-03&quot; &quot; 86.47&quot;    &quot; 84.80&quot;  
-## [23,] &quot;TMF&quot;  &quot; 81.2&quot; &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot; 69.56&quot;    &quot; 73.76&quot;  
-## [24,] &quot;TQQQ&quot; &quot; 18.8&quot; &quot;2014-10-03&quot; &quot;2014-10-10&quot; &quot; 84.80&quot;    &quot; 75.00&quot;  
-## [25,] &quot;SHV&quot;  &quot;  0.0&quot; &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot;110.27&quot;    &quot;110.26&quot;  
-## [26,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot;118.99&quot;    &quot;120.01&quot;  
-## [27,] &quot;TMF&quot;  &quot;100.0&quot; &quot;2014-10-10&quot; &quot;2014-10-17&quot; &quot; 73.76&quot;    &quot; 75.75&quot;  
-## [28,] &quot;QQQ&quot;  &quot;100.0&quot; &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot; 92.65&quot;    &quot; 98.25&quot;  
-## [29,] &quot;SPXL&quot; &quot;  0.0&quot; &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot; 67.59&quot;    &quot; 76.14&quot;  
-## [30,] &quot;SPY&quot;  &quot;  0.0&quot; &quot;2014-10-17&quot; &quot;2014-10-24&quot; &quot;187.44&quot;    &quot;195.35&quot;  
-## [31,] &quot;QQQ&quot;  &quot;  0.0&quot; &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 98.25&quot;    &quot;101.02&quot;  
-## [32,] &quot;SPXL&quot; &quot;  0.0&quot; &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 76.14&quot;    &quot; 82.38&quot;  
-## [33,] &quot;TQQQ&quot; &quot;100.0&quot; &quot;2014-10-24&quot; &quot;2014-10-31&quot; &quot; 84.93&quot;    &quot; 92.18&quot;  
-## [34,] &quot;QQQ&quot;  &quot; 68.1&quot; &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot;101.02&quot;    &quot;101.22&quot;  
-## [35,] &quot;SPXL&quot; &quot; 31.9&quot; &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot; 82.38&quot;    &quot; 84.40&quot;  
-## [36,] &quot;SPY&quot;  &quot;  0.0&quot; &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot;200.55&quot;    &quot;202.22&quot;  
-## [37,] &quot;TQQQ&quot; &quot;  0.0&quot; &quot;2014-10-31&quot; &quot;2014-11-07&quot; &quot; 92.18&quot;    &quot; 92.69&quot;  
-## [38,] &quot;SPXL&quot; &quot; 34.2&quot; &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot; 84.40&quot;    &quot; 85.46&quot;  
-## [39,] &quot;TLT&quot;  &quot; 65.8&quot; &quot;2014-11-07&quot; &quot;2014-11-14&quot; &quot;118.99&quot;    &quot;118.73&quot;  
-## [40,] &quot;EDV&quot;  &quot;  7.2&quot; &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot;114.90&quot;    &quot;115.69&quot;  
-## [41,] &quot;TLT&quot;  &quot; 30.7&quot; &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot;118.73&quot;    &quot;119.33&quot;  
-## [42,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot; 72.95&quot;    &quot; 74.13&quot;  
-## [43,] &quot;TQQQ&quot; &quot; 62.0&quot; &quot;2014-11-14&quot; &quot;2014-11-21&quot; &quot; 97.16&quot;    &quot; 99.16&quot;  
-## [44,] &quot;SPXL&quot; &quot; 57.9&quot; &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 88.59&quot;    &quot; 89.22&quot;  
-## [45,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 74.13&quot;    &quot; 78.66&quot;  
-## [46,] &quot;TQQQ&quot; &quot; 42.1&quot; &quot;2014-11-21&quot; &quot;2014-11-28&quot; &quot; 99.16&quot;    &quot;105.36&quot;  
-## [47,] &quot;EDV&quot;  &quot; 65.8&quot; &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;118.99&quot;    &quot;117.79&quot;  
-## [48,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;121.71&quot;    &quot;120.59&quot;  
-## [49,] &quot;TQQQ&quot; &quot; 34.2&quot; &quot;2014-11-28&quot; &quot;2014-12-05&quot; &quot;105.36&quot;    &quot;103.25&quot;  
-## [50,] &quot;QQQ&quot;  &quot; 49.5&quot; &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot;104.99&quot;    &quot;102.29&quot;  
-## [51,] &quot;SPXL&quot; &quot;  0.0&quot; &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot; 90.14&quot;    &quot; 80.98&quot;  
-## [52,] &quot;SPY&quot;  &quot; 50.5&quot; &quot;2014-12-05&quot; &quot;2014-12-12&quot; &quot;206.86&quot;    &quot;199.79&quot;  
-## [53,] &quot;EDV&quot;  &quot; 11.8&quot; &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot;125.01&quot;    &quot;123.55&quot;  
-## [54,] &quot;SHV&quot;  &quot; 88.2&quot; &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot;110.25&quot;    &quot;110.25&quot;  
-## [55,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2014-12-12&quot; &quot;2014-12-19&quot; &quot; 86.49&quot;    &quot; 85.42&quot;  
-## [56,] &quot;SPXL&quot; &quot; 37.1&quot; &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot; 89.11&quot;    &quot; 91.64&quot;  
-## [57,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot;125.35&quot;    &quot;124.16&quot;  
-## [58,] &quot;TMF&quot;  &quot; 62.9&quot; &quot;2014-12-19&quot; &quot;2014-12-26&quot; &quot; 85.42&quot;    &quot; 82.92&quot;  
-## [59,] &quot;QQQ&quot;  &quot;  0.0&quot; &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot;105.04&quot;    &quot;102.94&quot;  
-## [60,] &quot;SPXL&quot; &quot; 58.2&quot; &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot; 91.64&quot;    &quot; 87.64&quot;  
-## [61,] &quot;TMF&quot;  &quot; 41.8&quot; &quot;2014-12-26&quot; &quot;2015-01-02&quot; &quot; 82.92&quot;    &quot; 88.69&quot;  
-## [62,] &quot;EDV&quot;  &quot;  0.0&quot; &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;126.24&quot;    &quot;131.00&quot;  
-## [63,] &quot;SHV&quot;  &quot;  0.0&quot; &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;110.23&quot;    &quot;110.25&quot;  
-## [64,] &quot;TLT&quot;  &quot;100.0&quot; &quot;2015-01-02&quot; &quot;2015-01-09&quot; &quot;127.06&quot;    &quot;130.81&quot;  
-## [65,] &quot;EDV&quot;  &quot;  2.8&quot; &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;131.00&quot;    &quot;133.92&quot;  
-## [66,] &quot;SHV&quot;  &quot; 97.2&quot; &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;110.25&quot;    &quot;110.27&quot;  
-## [67,] &quot;TLT&quot;  &quot;  0.0&quot; &quot;2015-01-09&quot; &quot;2015-01-16&quot; &quot;130.81&quot;    &quot;132.92&quot;  
-## [68,] &quot;QQQ&quot;  &quot;  0.0&quot; &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot;100.82&quot;    &quot;104.26&quot;  
-## [69,] &quot;SPY&quot;  &quot;  0.0&quot; &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot;201.63&quot;    &quot;204.97&quot;  
-## [70,] &quot;TQQQ&quot; &quot;100.0&quot; &quot;2015-01-16&quot; &quot;2015-01-23&quot; &quot; 90.40&quot;    &quot; 99.70&quot;  
-## [71,] &quot;TLT&quot;  &quot; 79.7&quot; &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot;134.50&quot;    &quot;138.00&quot;  
-## [72,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot;104.60&quot;    &quot;112.72&quot;  
-## [73,] &quot;TQQQ&quot; &quot; 20.3&quot; &quot;2015-01-23&quot; &quot;2015-01-30&quot; &quot; 99.70&quot;    &quot; 90.68&quot;  
-## [74,] &quot;EDV&quot;  &quot;  5.9&quot; &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;141.60&quot;    &quot;130.67&quot;  
-## [75,] &quot;SHV&quot;  &quot; 94.1&quot; &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;110.26&quot;    &quot;110.27&quot;  
 ## [76,] &quot;TMF&quot;  &quot;  0.0&quot; &quot;2015-01-30&quot; &quot;2015-02-06&quot; &quot;112.72&quot;    &quot; 96.28&quot;  
 ## [77,] &quot;SPY&quot;  &quot;100.0&quot; &quot;2015-02-06&quot; &quot;2015-02-13&quot; &quot;205.55&quot;    &quot;209.78&quot;  
 ## [78,] &quot;QQQ&quot;  &quot;100.0&quot; &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot;106.91&quot;    &quot;108.41&quot;  
 ## [79,] &quot;SPXL&quot; &quot;  0.0&quot; &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot; 92.33&quot;    &quot; 94.21&quot;  
 ## [80,] &quot;TQQQ&quot; &quot;  0.0&quot; &quot;2015-02-13&quot; &quot;2015-02-20&quot; &quot;106.86&quot;    &quot;111.33&quot;  
 ##       return 
-##  [1,] &quot;-0.70&quot;
-##  [2,] &quot; 0.00&quot;
-##  [3,] &quot; 1.86&quot;
-##  [4,] &quot; 0.31&quot;
-##  [5,] &quot; 0.00&quot;
-##  [6,] &quot; 1.96&quot;
-##  [7,] &quot; 0.10&quot;
-##  [8,] &quot; 0.06&quot;
-##  [9,] &quot; 0.00&quot;
-## [10,] &quot;-0.16&quot;
-## [11,] &quot;-0.60&quot;
-## [12,] &quot; 0.00&quot;
-## [13,] &quot; 0.74&quot;
-## [14,] &quot; 0.00&quot;
-## [15,] &quot; 0.00&quot;
-## [16,] &quot; 0.00&quot;
-## [17,] &quot; 0.01&quot;
-## [18,] &quot; 0.00&quot;
-## [19,] &quot; 0.00&quot;
-## [20,] &quot; 0.00&quot;
-## [21,] &quot; 0.00&quot;
-## [22,] &quot;-1.93&quot;
-## [23,] &quot; 4.90&quot;
-## [24,] &quot;-2.17&quot;
-## [25,] &quot; 0.00&quot;
-## [26,] &quot; 0.00&quot;
-## [27,] &quot; 2.70&quot;
-## [28,] &quot; 6.04&quot;
-## [29,] &quot; 0.00&quot;
-## [30,] &quot; 0.00&quot;
-## [31,] &quot; 0.00&quot;
-## [32,] &quot; 0.00&quot;
-## [33,] &quot; 8.54&quot;
-## [34,] &quot; 0.13&quot;
-## [35,] &quot; 0.78&quot;
-## [36,] &quot; 0.00&quot;
-## [37,] &quot; 0.00&quot;
-## [38,] &quot; 0.43&quot;
-## [39,] &quot;-0.14&quot;
-## [40,] &quot; 0.05&quot;
-## [41,] &quot; 0.16&quot;
-## [42,] &quot; 0.00&quot;
-## [43,] &quot; 1.28&quot;
-## [44,] &quot; 0.41&quot;
-## [45,] &quot; 0.00&quot;
-## [46,] &quot; 2.63&quot;
-## [47,] &quot;-0.66&quot;
-## [48,] &quot; 0.00&quot;
-## [49,] &quot;-0.68&quot;
-## [50,] &quot;-1.27&quot;
-## [51,] &quot; 0.00&quot;
-## [52,] &quot;-1.72&quot;
-## [53,] &quot;-0.14&quot;
-## [54,] &quot; 0.00&quot;
-## [55,] &quot; 0.00&quot;
-## [56,] &quot; 1.05&quot;
-## [57,] &quot; 0.00&quot;
-## [58,] &quot;-1.84&quot;
-## [59,] &quot; 0.00&quot;
-## [60,] &quot;-2.54&quot;
-## [61,] &quot; 2.91&quot;
-## [62,] &quot; 0.00&quot;
-## [63,] &quot; 0.00&quot;
-## [64,] &quot; 2.95&quot;
-## [65,] &quot; 0.06&quot;
-## [66,] &quot; 0.02&quot;
-## [67,] &quot; 0.00&quot;
-## [68,] &quot; 0.00&quot;
-## [69,] &quot; 0.00&quot;
-## [70,] &quot;10.29&quot;
-## [71,] &quot; 2.07&quot;
-## [72,] &quot; 0.00&quot;
-## [73,] &quot;-1.84&quot;
-## [74,] &quot;-0.46&quot;
-## [75,] &quot; 0.01&quot;
 ## [76,] &quot; 0.00&quot;
 ## [77,] &quot; 2.06&quot;
 ## [78,] &quot; 1.40&quot;
