@@ -1,0 +1,278 @@
+
+PONIEDZIALEK (   ) Monday Eve Session February 18, 2019
+Scores after  1 boards  Average:   48.0      Section  M
+Pair    Pct   Score  Rank   MPs     
+  6   60.42   58.00   1    1.00     Mieczyslaw Lukasik - Janusz Hanus
+  7   59.38   57.00   2    0.70     Ryszard Waszkun - Jerzy Slubowski
+  9   57.29   55.00   3    0.50     Irena Jakubowska - Adam Drzadzewski
+ 10   52.60   50.50   4    0.35     Henryk Nowak - Zbigniew Pianka
+  1   47.92   46.00                 Roxana Piotrowicz - Anna Kaciak
+  3   47.92   46.00                 Wanda Galas - Bogdan Lech
+  2   45.83   44.00                 Maria Jarosz - Wojciech Kowalski
+  5   43.23   41.50                 Zbigniew Sekula - Bogdan Peszko
+  8   43.23   41.50                 Andrzej Kita - Beata Majchrzak-Kita
+  4   42.19   40.50                 Jan Kolodziejczyk - Jerzy Kozlowski
+
+ RESULTS OF BOARD 1
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  400          4.00   0.00 2-Jarosz-Kowalski vs 4-Kolodziejczyk-Kozlowski
+   50          0.50   3.50 3-Galas-Lech vs 6-Lukasik-Hanus
+  110          2.00   2.00 7-Waszkun-Slubowski vs 8-Kita-Majchrzak-Kita
+  130          3.00   1.00 9-Jakubowska-Drzadzewski vs 5-Sekula-Peszko
+   50          0.50   3.50 10-Nowak-Pianka vs 1-Piotrowicz-Kaciak
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 2
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        110    2.00   2.00 2-Jarosz-Kowalski vs 4-Kolodziejczyk-Kozlowski
+   50          3.50   0.50 3-Galas-Lech vs 6-Lukasik-Hanus
+        180    1.00   3.00 7-Waszkun-Slubowski vs 8-Kita-Majchrzak-Kita
+   50          3.50   0.50 9-Jakubowska-Drzadzewski vs 5-Sekula-Peszko
+        400    0.00   4.00 10-Nowak-Pianka vs 1-Piotrowicz-Kaciak
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 3
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        130    3.00   1.00 2-Jarosz-Kowalski vs 4-Kolodziejczyk-Kozlowski
+        620    1.00   3.00 3-Galas-Lech vs 6-Lukasik-Hanus
+  100          4.00   0.00 7-Waszkun-Slubowski vs 8-Kita-Majchrzak-Kita
+        620    1.00   3.00 9-Jakubowska-Drzadzewski vs 5-Sekula-Peszko
+        620    1.00   3.00 10-Nowak-Pianka vs 1-Piotrowicz-Kaciak
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 4
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  660          4.00   0.00 3-Galas-Lech vs 5-Sekula-Peszko
+  110          0.00   4.00 4-Kolodziejczyk-Kozlowski vs 7-Waszkun-Slubowski
+  200          1.00   3.00 8-Kita-Majchrzak-Kita vs 1-Piotrowicz-Kaciak
+  620          3.00   1.00 9-Jakubowska-Drzadzewski vs 6-Lukasik-Hanus
+  600          2.00   2.00 10-Nowak-Pianka vs 2-Jarosz-Kowalski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 5
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  100          3.00   1.00 3-Galas-Lech vs 5-Sekula-Peszko
+   50          1.50   2.50 4-Kolodziejczyk-Kozlowski vs 7-Waszkun-Slubowski
+   50          1.50   2.50 8-Kita-Majchrzak-Kita vs 1-Piotrowicz-Kaciak
+        140    0.00   4.00 9-Jakubowska-Drzadzewski vs 6-Lukasik-Hanus
+  110          4.00   0.00 10-Nowak-Pianka vs 2-Jarosz-Kowalski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 6
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        140    2.00   2.00 3-Galas-Lech vs 5-Sekula-Peszko
+        150    1.00   3.00 4-Kolodziejczyk-Kozlowski vs 7-Waszkun-Slubowski
+  200          4.00   0.00 8-Kita-Majchrzak-Kita vs 1-Piotrowicz-Kaciak
+        110    3.00   1.00 9-Jakubowska-Drzadzewski vs 6-Lukasik-Hanus
+        500    0.00   4.00 10-Nowak-Pianka vs 2-Jarosz-Kowalski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 7
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  110          3.00   1.00 1-Piotrowicz-Kaciak vs 2-Jarosz-Kowalski
+        200    1.00   3.00 4-Kolodziejczyk-Kozlowski vs 6-Lukasik-Hanus
+  200          4.00   0.00 5-Sekula-Peszko vs 8-Kita-Majchrzak-Kita
+        200    1.00   3.00 9-Jakubowska-Drzadzewski vs 7-Waszkun-Slubowski
+        200    1.00   3.00 10-Nowak-Pianka vs 3-Galas-Lech
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 8
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+         50    0.00   4.00 1-Piotrowicz-Kaciak vs 2-Jarosz-Kowalski
+  550          4.00   0.00 4-Kolodziejczyk-Kozlowski vs 6-Lukasik-Hanus
+  170          1.00   3.00 5-Sekula-Peszko vs 8-Kita-Majchrzak-Kita
+  400          2.00   2.00 9-Jakubowska-Drzadzewski vs 7-Waszkun-Slubowski
+  490          3.00   1.00 10-Nowak-Pianka vs 3-Galas-Lech
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 9
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  430          4.00   0.00 1-Piotrowicz-Kaciak vs 2-Jarosz-Kowalski
+        200    1.00   3.00 4-Kolodziejczyk-Kozlowski vs 6-Lukasik-Hanus
+        100    2.00   2.00 5-Sekula-Peszko vs 8-Kita-Majchrzak-Kita
+        500    0.00   4.00 9-Jakubowska-Drzadzewski vs 7-Waszkun-Slubowski
+  400          3.00   1.00 10-Nowak-Pianka vs 3-Galas-Lech
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 10
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  100          0.50   3.50 2-Jarosz-Kowalski vs 3-Galas-Lech
+  100          0.50   3.50 5-Sekula-Peszko vs 7-Waszkun-Slubowski
+  620          2.50   1.50 6-Lukasik-Hanus vs 1-Piotrowicz-Kaciak
+  950          4.00   0.00 9-Jakubowska-Drzadzewski vs 8-Kita-Majchrzak-Kita
+  620          2.50   1.50 10-Nowak-Pianka vs 4-Kolodziejczyk-Kozlowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 11
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+         50    1.50   2.50 2-Jarosz-Kowalski vs 3-Galas-Lech
+        150    0.00   4.00 5-Sekula-Peszko vs 7-Waszkun-Slubowski
+  420          3.00   1.00 6-Lukasik-Hanus vs 1-Piotrowicz-Kaciak
+  570          4.00   0.00 9-Jakubowska-Drzadzewski vs 8-Kita-Majchrzak-Kita
+         50    1.50   2.50 10-Nowak-Pianka vs 4-Kolodziejczyk-Kozlowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 12
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  630          2.50   1.50 2-Jarosz-Kowalski vs 3-Galas-Lech
+  630          2.50   1.50 5-Sekula-Peszko vs 7-Waszkun-Slubowski
+  630          2.50   1.50 6-Lukasik-Hanus vs 1-Piotrowicz-Kaciak
+  180          0.00   4.00 9-Jakubowska-Drzadzewski vs 8-Kita-Majchrzak-Kita
+  630          2.50   1.50 10-Nowak-Pianka vs 4-Kolodziejczyk-Kozlowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 13
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        870    0.00   4.00 1-Piotrowicz-Kaciak vs 9-Jakubowska-Drzadzewski
+        140    1.00   3.00 3-Galas-Lech vs 4-Kolodziejczyk-Kozlowski
+  200          4.00   0.00 6-Lukasik-Hanus vs 8-Kita-Majchrzak-Kita
+  100          2.00   2.00 7-Waszkun-Slubowski vs 2-Jarosz-Kowalski
+  140          3.00   1.00 10-Nowak-Pianka vs 5-Sekula-Peszko
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 14
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  420          2.50   1.50 1-Piotrowicz-Kaciak vs 9-Jakubowska-Drzadzewski
+         50    0.00   4.00 3-Galas-Lech vs 4-Kolodziejczyk-Kozlowski
+  420          2.50   1.50 6-Lukasik-Hanus vs 8-Kita-Majchrzak-Kita
+  420          2.50   1.50 7-Waszkun-Slubowski vs 2-Jarosz-Kowalski
+  420          2.50   1.50 10-Nowak-Pianka vs 5-Sekula-Peszko
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 15
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  620          2.00   2.00 1-Piotrowicz-Kaciak vs 9-Jakubowska-Drzadzewski
+  620          2.00   2.00 3-Galas-Lech vs 4-Kolodziejczyk-Kozlowski
+  650          4.00   0.00 6-Lukasik-Hanus vs 8-Kita-Majchrzak-Kita
+  620          2.00   2.00 7-Waszkun-Slubowski vs 2-Jarosz-Kowalski
+        200    0.00   4.00 10-Nowak-Pianka vs 5-Sekula-Peszko
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 16
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  400          2.00   2.00 2-Jarosz-Kowalski vs 9-Jakubowska-Drzadzewski
+  120          0.00   4.00 4-Kolodziejczyk-Kozlowski vs 5-Sekula-Peszko
+  400          2.00   2.00 7-Waszkun-Slubowski vs 1-Piotrowicz-Kaciak
+  430          4.00   0.00 8-Kita-Majchrzak-Kita vs 3-Galas-Lech
+  400          2.00   2.00 10-Nowak-Pianka vs 6-Lukasik-Hanus
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 17
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        430    1.50   2.50 2-Jarosz-Kowalski vs 9-Jakubowska-Drzadzewski
+        430    1.50   2.50 4-Kolodziejczyk-Kozlowski vs 5-Sekula-Peszko
+        180    4.00   0.00 7-Waszkun-Slubowski vs 1-Piotrowicz-Kaciak
+        430    1.50   2.50 8-Kita-Majchrzak-Kita vs 3-Galas-Lech
+        430    1.50   2.50 10-Nowak-Pianka vs 6-Lukasik-Hanus
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 18
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        140    0.00   4.00 2-Jarosz-Kowalski vs 9-Jakubowska-Drzadzewski
+   50          2.00   2.00 4-Kolodziejczyk-Kozlowski vs 5-Sekula-Peszko
+   50          2.00   2.00 7-Waszkun-Slubowski vs 1-Piotrowicz-Kaciak
+   50          2.00   2.00 8-Kita-Majchrzak-Kita vs 3-Galas-Lech
+  100          4.00   0.00 10-Nowak-Pianka vs 6-Lukasik-Hanus
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 19
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        600    2.00   2.00 1-Piotrowicz-Kaciak vs 4-Kolodziejczyk-Kozlowski
+        630    0.50   3.50 3-Galas-Lech vs 9-Jakubowska-Drzadzewski
+        630    0.50   3.50 5-Sekula-Peszko vs 6-Lukasik-Hanus
+        150    3.00   1.00 8-Kita-Majchrzak-Kita vs 2-Jarosz-Kowalski
+        100    4.00   0.00 10-Nowak-Pianka vs 7-Waszkun-Slubowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 20
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        650    2.50   1.50 1-Piotrowicz-Kaciak vs 4-Kolodziejczyk-Kozlowski
+        650    2.50   1.50 3-Galas-Lech vs 9-Jakubowska-Drzadzewski
+        660    0.50   3.50 5-Sekula-Peszko vs 6-Lukasik-Hanus
+        660    0.50   3.50 8-Kita-Majchrzak-Kita vs 2-Jarosz-Kowalski
+        630    4.00   0.00 10-Nowak-Pianka vs 7-Waszkun-Slubowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 21
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        430    0.00   4.00 1-Piotrowicz-Kaciak vs 4-Kolodziejczyk-Kozlowski
+        130    3.00   1.00 3-Galas-Lech vs 9-Jakubowska-Drzadzewski
+        200    2.00   2.00 5-Sekula-Peszko vs 6-Lukasik-Hanus
+   50          4.00   0.00 8-Kita-Majchrzak-Kita vs 2-Jarosz-Kowalski
+        420    1.00   3.00 10-Nowak-Pianka vs 7-Waszkun-Slubowski
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 22
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        600    1.50   2.50 1-Piotrowicz-Kaciak vs 3-Galas-Lech
+        600    1.50   2.50 2-Jarosz-Kowalski vs 5-Sekula-Peszko
+        600    1.50   2.50 4-Kolodziejczyk-Kozlowski vs 9-Jakubowska-Drzadzewski
+        210    4.00   0.00 6-Lukasik-Hanus vs 7-Waszkun-Slubowski
+        600    1.50   2.50 10-Nowak-Pianka vs 8-Kita-Majchrzak-Kita
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 23
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+        680    2.00   2.00 1-Piotrowicz-Kaciak vs 3-Galas-Lech
+        680    2.00   2.00 2-Jarosz-Kowalski vs 5-Sekula-Peszko
+        680    2.00   2.00 4-Kolodziejczyk-Kozlowski vs 9-Jakubowska-Drzadzewski
+        680    2.00   2.00 6-Lukasik-Hanus vs 7-Waszkun-Slubowski
+        680    2.00   2.00 10-Nowak-Pianka vs 8-Kita-Majchrzak-Kita
+----------------------------------------------------------------------
+
+ RESULTS OF BOARD 24
+
+   SCORES      MATCHPOINTS   NAMES
+  N-S   E-W    N-S    E-W
+  400          2.50   1.50 1-Piotrowicz-Kaciak vs 3-Galas-Lech
+  400          2.50   1.50 2-Jarosz-Kowalski vs 5-Sekula-Peszko
+   50          0.00   4.00 4-Kolodziejczyk-Kozlowski vs 9-Jakubowska-Drzadzewski
+  150          1.00   3.00 6-Lukasik-Hanus vs 7-Waszkun-Slubowski
+  800          4.00   0.00 10-Nowak-Pianka vs 8-Kita-Majchrzak-Kita
+----------------------------------------------------------------------
